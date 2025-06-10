@@ -8,3 +8,15 @@ type Persister struct {
 	raftstate []byte
 	snapshot  []byte
 }
+
+// persist saves the Raft node's persistent state to stable storage.
+// This function should be called whenever the persistent state changes.
+func (rf *Raft) persist() {
+
+}
+
+// readPersist restores the previously persisted state into memory.
+// This function should be called when a Raft node starts up or recovers from a crash.
+func (rf *Raft) readPersist(data []byte) {
+
+}

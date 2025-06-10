@@ -9,7 +9,7 @@ This project is an implementation of the Raft consensus algorithm in Go which us
 To get started with this Raft implementation, follow these instructions:
 
 ### Prerequisites
-- Go (version 1.18 or later)
+- Go (version 1.2x)
 
 ### Building the project
 1. Clone the repository:
